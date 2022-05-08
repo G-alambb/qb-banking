@@ -1,33 +1,33 @@
 local Translations = {
     error = {
-        not_give = "Could not give item to the given id.",
-        givecash = "Usage /givecash [ID] [AMOUNT]",
-        wrong_id = "Wrong ID.",
-        dead = "You are dead LOL.",
-        too_far_away = "You are too far away lmfao.",
-        not_enough = "You don\'t have this amount.",
-        invalid_amount = "Invalid Amount Given"
+        not_give = "Nem megfelelő ID.",
+        givecash = "/givecash [ID] [ÖSSZEG] használata",
+        wrong_id = "Nem megfelelő ID.",
+        dead = "Halott vagy LOL.",
+        too_far_away = "Túlmesze vagy!",
+        not_enough = "Nincs ennyid!.",
+        invalid_amount = "Nem megfelelő összeg!"
     },
     success = {
-        debit_card = "You have successfully ordered a Debit Card.",
-        cash_deposit = "You successfully made a cash deposit of $%{value}.",
-        cash_withdrawal = "You successfully made a cash withdrawal of $%{value}.",
-        updated_pin = "You have successfully updated your debit card pin.",
-        savings_deposit = "You successfully made a savings deposit of $%{value}.",
-        savings_withdrawal = "You successfully made a savings withdrawal of $%{value}.",
-        opened_savings = "You have successfully opened a savings account.",
-        give_cash = "Successfully gave $%{cash} to ID %{id}",
-        received_cash = "Successfully received $%{cash} from ID %{id}"
+        debit_card = "Sikeressen rendeltél egy bank kártyát!",
+        cash_deposit = "Sikeresen be tetél a bankba: $%{value}.",
+        cash_withdrawal = "Sikeresen felvettél: $%{value} a bank bol!",
+        updated_pin = "Sikeresen megváltoztattad a PIN kódot!",
+        savings_deposit = "Sikeresen be tetél: $%{value} a takarékpénztárba!",
+        savings_withdrawal = "Sikeresen kivetél: $%{value} a takarékpénztárbol!",
+        opened_savings = "Sikeresen nyitotál egy takarékpénztárat!",
+        give_cash = "Sikeresen át adtál $%{cash} a ID: %{id}",
+        received_cash = "Kaptál: $%{cash}  %{id} -tól"
     },
     info = {
         bank_blip = "Bank",
-        access_bank_target = "Access Bank",
-        access_bank_key = "[E] - Access Bank",
-        current_to_savings = "Transfer Current Account to Savings",
-        savings_to_current = "Transfer Savings to Current Account "
+        access_bank_target = "Bank megnyitása ",
+        access_bank_key = "[E] - A bank megnyitásához",
+        current_to_savings = "Jelenlegi fiók összege át útalása a takarékpénztárba",
+        savings_to_current = "Takarékpénztár összege át útalása a jelenlegi fiókba"
     },
     command = {
-        givecash = "Give cash to player."
+        givecash = "Kézpénz átadása!"
     }
 }
 
